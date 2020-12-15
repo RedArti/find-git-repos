@@ -11,12 +11,12 @@ body{
 .title {
     text-align: center;
     padding: 30px;
-    font-size: 48px;
+    font-size: 38px;
 }
 
 .search-rep {
     list-style-type: none;
-    width: 500px;
+    width: 70%;
     margin: 0 auto;
     background-color: #E3E3E3;
     border: 1px solid black;
@@ -29,7 +29,7 @@ li:hover {
 }
 
 .search-input {
-    width: 500px;
+    width: 70%;
     padding: 10px;
     font-size: 20px;
     outline: none;
@@ -40,7 +40,7 @@ li:hover {
 }
 
 .wrapper {
-    width: 660px;
+    width: 60%;
     margin: 0 auto;
     background-color: #C4C4C4;
     min-height: 100vh;
@@ -62,7 +62,7 @@ li:hover {
     text-align: left;
     list-style-type: none;
     height: 60px;
-    width: 500px;
+    width: 70%;
     margin: 0 auto;
     background-color: #E27BEB;
     border: 1px solid black;
@@ -75,7 +75,8 @@ li:hover {
 
 .lala{
     position: absolute;
-    top: 15px;
+    transform: translate(0%, -50%);
+    top: 50%;
     right: 10px;
     cursor: pointer;
     width: 30px;

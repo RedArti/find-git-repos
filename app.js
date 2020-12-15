@@ -27,8 +27,9 @@ class SearchRepos {
             const li = this.createElement('li', 'likked-li')
             li.innerHTML = e.target.innerHTML;
             const img = this.createElement('img', 'lala')
-            img.src = './img/delete.png';
-            for(let i = 0; i < 3; i++) {
+            img.src = './img/delete.svg';
+            const arr = ['name', 'owner', 'star']
+            for(let i = 0; i < arr.length; i++) {
                 const li = document.createElement('li')
                 li.classList.add('likked-li')
                 if(i === 0) {
